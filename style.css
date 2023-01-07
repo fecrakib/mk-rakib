@@ -4,6 +4,8 @@
   --dark1: #151414;
   --dark2: #444343;
   --primary: #f15b22;
+  --main-padding: 230px;
+  --full: 100%;
 }
 * {
   margin: 0;
@@ -53,4 +55,35 @@
   font-size: 20px;
   width: max-content;
   margin-left: auto;
+}
+
+/* ---------------------------- header done ---------------------------- */
+
+#hero {
+  display: grid;
+  padding: var(--main-padding);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+  justify-items: left;
+}
+#hero img {
+  width: var(--full);
+
+  /* padding-right: 50px; */
+}
+
+#hero div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#hero h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: var(--dark1);
+}
+#hero p {
+  color: var(--dark2);
 }
