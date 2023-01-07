@@ -99,6 +99,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 #plan h1 {
   font-weight: 700;
