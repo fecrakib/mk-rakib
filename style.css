@@ -87,3 +87,38 @@
 #hero p {
   color: var(--dark2);
 }
+/* ----------------------------- hero done ----------------------------- */
+
+#plan > main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: var(--main-padding);
+}
+#plan > main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#plan h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: var(--dark1);
+  text-align: center;
+}
+
+#plan h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: var(--dark1);
+}
+#plan p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
