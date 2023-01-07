@@ -122,3 +122,40 @@
   text-align: center;
   color: #737272;
 }
+
+/* ---------------------------- cta section ---------------------------- */
+#cta {
+  background: url("./images/watch.png");
+  height: 300px;
+  margin: var(--main-padding);
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+#cta div {
+  width: 50%;
+  z-index: 100;
+  left: 64px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+#cta h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+}
+#cta button {
+  margin-top: 25px;
+  background-color: white;
+  padding: 20px 25px;
+  border: 0;
+  border-radius: 5px;
+  color: var(--primary);
+  font-size: 20px;
+  width: max-content;
+  margin-left: auto;
+}
